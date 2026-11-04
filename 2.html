@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Turistički Vodič - Sarajevo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Navigacijski meni */
+        .meni {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+        .meni li {
+            display: inline-block; /* Elementi u redu */
+        }
+
+        /* Stilizacija linkova */
+        .meni a {
+            display: inline-block; /* Primijenjeno block/inline-block ponašanje */
+            width: 200px;
+            color: #ffffff;
+            background-color: #2c3e50;
+            padding: 12px 0;
+            text-align: center;
+            border: 2px solid #1a252f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Promjena pri hover-u */
+        .meni a:hover {
+            background-color: #e74c3c;
+            border-color: #c0392b;
+            color: #ffffff;
+        }
+
+        .sekcija {
+            margin-bottom: 40px;
+            padding: 15px;
+            border-left: 4px solid #2c3e50;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="meni">
+        <li><a href="#bascarsija">Baščaršija</a></li>
+        <li><a href="#vrelo-bosne">Vrelo Bosne</a></li>
+        <li><a href="#trebevic">Trebević</a></li>
+        <li><a href="#zuta-tabija">Žuta Tabija</a></li>
+    </ul>
+
+    <div id="bascarsija" class="sekcija">
+        <h2>Baščaršija</h2>
+        <p>Stara sarajevska čaršija i historijski i kulturni centar grada Sarajevo.</p>
+    </div>
+
+    <div id="vrelo-bosne" class="sekcija">
+        <h2>Vrelo Bosne</h2>
+        <p>Poznato izletište i izvor rijeke Bosne, smješteno u podnožju planine Igman.</p>
+    </div>
+
+    <div id="trebevic" class="sekcija">
+        <h2>Trebević</h2>
+        <p>Planina u jugoistočnom dijelu Sarajeva, popularna za planinarenje i vožnju žičarom.</p>
+    </div>
+
+    <div id="zuta-tabija" class="sekcija">
+        <h2>Žuta Tabija</h2>
+        <p>Tvrđava na Jekovcu sa koje se pruža jedan od najljepših pogleda na grad.</p>
+    </div>
+
+</body>
+</html>

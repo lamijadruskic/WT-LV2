@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Ponuda Kurseva</title>
+    <style>
+        /* ID selektor za glavni naslov */
+        #glavni-naslov {
+            text-align: center;
+            color: #2b2b2b;
+            font-family: Arial, sans-serif;
+            margin-bottom: 30px;
+        }
+
+        /* Zajednička klasa za sve ponude */
+        .kartica-ponude {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 250px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+
+        .kartica-ponude h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .info {
+            font-weight: bold;
+            color: #555;
+            margin-top: 15px;
+        }
+
+        /* Dodatna klasa za preporučenu ponudu */
+        .preporuceno {
+            border: 2px solid #27ae60;
+            background-color: #eafaf1;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="glavni-naslov">Škola Web Programiranja</h1>
+
+    <div class="kartica-ponude">
+        <h3>HTML & CSS Osnove</h3>
+        <p>Naučite osnove strukturiranja i stiliziranja modernih web stranica od nule.</p>
+        <p class="info">Trajanje: 4 sedmice</p>
+    </div>
+
+    <!-- Preporučena ponuda (ima i klasu kartica-ponude i klasu preporuceno) -->
+    <div class="kartica-ponude preporuceno">
+        <h3>Full-Stack Web Dev</h3>
+        <p>Kompletan kurs koji obuhvata frontend i backend tehnologije uz izradu realnih projekata.</p>
+        <p class="info">Trajanje: 12 sedmica (Preporučeno)</p>
+    </div>
+
+    <div class="kartica-ponude">
+        <h3>JavaScript Napredni</h3>
+        <p>Produbite znanje dinamičkog programiranja i modernih JS okvira (React/Vue).</p>
+        <p class="info">Trajanje: 6 sedmica</p>
+    </div>
+
+</body>
+</html>

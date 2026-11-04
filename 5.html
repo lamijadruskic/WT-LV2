@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorijal 1, Zadatak 2</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: 0 auto;
+            background-color: #c0c0c0;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #c0c0c0;
+            font-weight: bold;
+        }
+
+        .predmet {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Bodovanje po predmetima</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Ispiti</th>
+                <th>Zadaće</th>
+                <th>Prisustvo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="predmet">PNWT</td>
+                <td>20</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="predmet">MMS</td>
+                <td>20</td>
+                <td colspan="2" rowspan="2">30</td>
+            </tr>
+            <tr>
+                <td class="predmet" rowspan="2">SI</td>
+                <td>20/2</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td colspan="2">?</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
